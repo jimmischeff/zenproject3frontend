@@ -34,7 +34,7 @@ const FormOne = (props) => {
         type="text"
         name="price"
         placeholder='Enter Price'
-        value={formData.price !== 0 ? `$ ${formData.price}` : null}
+        value={formData.price !== 0 ? `${formData.price}` : null}
         onChange={handleChange}
       />
       {/* </InputGroupAddon> */}
